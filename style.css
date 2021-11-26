@@ -20,8 +20,9 @@ right: 0;
 bottom: 0;
 margin: auto;
 
-background-color: #FCD1C6;
+background-color: white;
 border: thin solid white;
+
 
 z-index: -3;
 
@@ -35,11 +36,11 @@ z-index: -3;
   border: thin solid black;
   height: 30em;
   width: 30em;
+  background-color: #FCD1C6;
   border-radius: 6em;
-
-
-
+  z-index: -2;
 }
+
 
 .ojos {
   position: absolute;
@@ -87,4 +88,17 @@ z-index: -3;
   position: absolute;
   right: 1em;
   top: 10em;
+}
+
+.cuerpo {
+position: relative;
+  width: 10em;
+ height: 10em;
+ border: 3px solid #555;
+ background: #428bca;
+ z-index: -1;
+ top: 0;
+ left: 0;
+ bottom: 0;
+
 }
