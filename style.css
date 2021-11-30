@@ -98,15 +98,34 @@ z-index: -3;
   z-index: -1;
   left: 7em;
   bottom: -15em;
-
+  border-radius: 4em;
 
 }
 
-.brazos {
-  position: absolute;
-  right: 46em;
-  bottom: 26em;
-  margin: 0;
-  background-color: yellow;
-  
+.brazo1 {
+position: absolute;
+right: 9em;
+bottom: 5em;
+margin: 0;
+background-color: yellow;
+height: 3em;
+width: 13em;
+border-radius: 1em;
+transform: rotate(100deg);
+z-index: -5;
+
+}
+
+.brazo2 {
+position: absolute;
+right: 3em;
+bottom: 16em;
+margin: 0;
+background-color: yellow;
+height: 3em;
+width: 13em;
+border-radius: 1em;
+transform: rotate(340deg);
+z-index: -5;
+
 }
