@@ -96,6 +96,7 @@ z-index: -3;
 }
 
 .serio1 {
+<<<<<<< HEAD
   position: absolute;
   left: -8em;
   bottom: 6em;
@@ -131,6 +132,43 @@ z-index: -3;
 
   width: 20em;
   height: 30em;
+=======
+  position: absolute;
+  left: -8em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
+  width: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.serio2 {
+  position: absolute;
+  left: -22em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
+  width: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+
+}
+
+.cuerpo {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+
+  width: 15em;
+  height: 15em;
+>>>>>>> 1f919a61bfe4794c68429f304021fcbd52504dfa
   border-radius: 4em;
   background-color: yellow;
 
