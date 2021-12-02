@@ -8,7 +8,6 @@
   top: 1em;
   left: 2em;
   margin: 0 auto;
-
   background-color: #FCD1C6;
   border: thin solid white;
   border-radius: 6em; */
@@ -30,8 +29,14 @@ z-index: -3;
 
 .muneco {
   position: relative;
+}
+
+.cabesa {
+  position: absolute;
 
   margin: 0 auto;
+  left: 0;
+  right: 0;
 
 
   height: 30em;
@@ -39,8 +44,9 @@ z-index: -3;
   background-color: #FCD1C6;
   border-radius: 6em;
   z-index: -2;
-}
 
+
+}
 
 .ojos {
   position: absolute;
@@ -54,8 +60,8 @@ z-index: -3;
 .ojo {
   position: relative;
   width: 100px;
-  height: 100px;
-  background-color: black;
+  height: 110px;
+  background-color: white;
   border: thin solid white;
   border-radius: 50%;
 
@@ -89,24 +95,89 @@ z-index: -3;
   top: 10em;
 }
 
-.cuerpo {
+.serio1 {
   position: absolute;
+  left: -8em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
   width: 15em;
-  height: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
 
-  background-color: yellow;
-  z-index: -1;
-  left: 7em;
-  bottom: -15em;
-
+.serio2 {
+  position: absolute;
+  left: -22em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
+  width: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
 
 }
 
-.brazos {
+.cuerpo {
   position: absolute;
-  right: 46em;
-  bottom: 26em;
-  margin: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+
+  width: 15em;
+  height: 15em;
+  border-radius: 4em;
   background-color: yellow;
-  
+
+  top: 30em;
+
+}
+
+.brazo1 {
+position: absolute;
+margin: 0 auto;
+left: 0;
+right: 0;
+
+background-color: yellow;
+height: 3em;
+width: 13em;
+border-radius: 1em;
+top: 5em;
+left: -18em;
+transform: rotate(120deg);
+
+}
+
+.brazo2 {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+  background-color: yellow;
+  height: 3em;
+  width: 13em;
+  border-radius: 1em;
+
+  top: 5em;
+  right: -18em;
+  transform: rotate(240deg);
+}
+
+.pie1 {
+  position: absolute;
+  left: 20em;
+  top: 0;
+  margin: 0;
+  background-color: green;
+  border-radius: 1em;
+  height: 8em;
+  width: 3em;
+ z-index: -3;
 }
