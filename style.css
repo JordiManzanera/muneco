@@ -8,7 +8,6 @@
   top: 1em;
   left: 2em;
   margin: 0 auto;
-
   background-color: #FCD1C6;
   border: thin solid white;
   border-radius: 6em; */
@@ -30,8 +29,14 @@ z-index: -3;
 
 .muneco {
   position: relative;
+}
+
+.cabesa {
+  position: absolute;
 
   margin: 0 auto;
+  left: 0;
+  right: 0;
 
 
   height: 30em;
@@ -39,8 +44,9 @@ z-index: -3;
   background-color: #FCD1C6;
   border-radius: 6em;
   z-index: -2;
-}
 
+
+}
 
 .ojos {
   position: absolute;
@@ -54,8 +60,8 @@ z-index: -3;
 .ojo {
   position: relative;
   width: 100px;
-  height: 100px;
-  background-color: black;
+  height: 110px;
+  background-color: white;
   border: thin solid white;
   border-radius: 50%;
 
@@ -89,43 +95,177 @@ z-index: -3;
   top: 10em;
 }
 
+.serio1 {
+  position: absolute;
+  left: -8em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
+  width: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.serio2 {
+  position: absolute;
+  left: -22em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
+  width: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+
+}
+
 .cuerpo {
   position: absolute;
-  width: 15em;
-  height: 15em;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 
-  background-color: yellow;
-  z-index: -1;
-  left: 7em;
-  bottom: -15em;
+
+  width: 20em;
+  height: 30em;
   border-radius: 4em;
+  background-color: yellow;
+
+  top: 30em;
 
 }
 
 .brazo1 {
 position: absolute;
-right: 9em;
-bottom: 5em;
-margin: 0;
+margin: 0 auto;
+left: 0;
+right: 0;
+
 background-color: yellow;
-height: 3em;
-width: 13em;
+height: 15em;
+width: 20em;
 border-radius: 1em;
-transform: rotate(100deg);
-z-index: -5;
+top: 3em;
+left: -23em;
+transform: rotate(90deg);
 
 }
 
 .brazo2 {
-position: absolute;
-right: 3em;
-bottom: 16em;
-margin: 0;
-background-color: yellow;
-height: 3em;
-width: 13em;
-border-radius: 1em;
-transform: rotate(340deg);
-z-index: -5;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 
+  background-color: yellow;
+  height: 15em;
+  width: 20em;
+  border-radius: 1em;
+
+  top: 3em;
+  right: -23em;
+  transform: rotate(90deg);
+}
+
+.guantes1 {
+  position: absolute;
+  left: -9em;
+  bottom: 6em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 8em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.guantes2 {
+  position: absolute;
+  right: -9em;
+  bottom: 6em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 8em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.cinturon1 {
+  position: absolute;
+  left: -1em;
+  bottom: 6em;
+  margin: 0;
+  background-color: black;
+  height: 8em;
+  width: 22em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.cinturon2 {
+  width: 10em;
+  height: 5em;
+  left: -5em;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: green;
+}
+
+.pie1 {
+  position: absolute;
+  left: -1em;
+  top: 12em;
+  margin: 0;
+  background-color: yellow;
+  border-radius: 1em;
+  height: 35em;
+  width: 11em;
+ z-index: -3;
+}
+
+.pie2 {
+  position: absolute;
+  right: -1em;
+  top: 12em;
+  margin: 0;
+  background-color: yellow;
+  border-radius: 1em;
+  height: 35em;
+  width: 11em;
+ z-index: -3;
+
+}
+
+.botas1 {
+  position: absolute;
+  left: -1em;
+  top: 39em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 11em;
+  border-top: 9em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.botas2 {
+  position: absolute;
+  right: -1em;
+  top: 39em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 11em;
+  border-top: 9em;
+  border-radius: 0em;
+  z-index: 1;
 }
