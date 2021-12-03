@@ -67,6 +67,12 @@ z-index: -3;
 
 }
 
+@keyframes mover-ojo  {
+  0% { left: 2em; }
+  50% { left: 1.5em; }
+  100% { left: 1em; }
+}
+
 .pupila {
   position: absolute;
   top: 0;
@@ -87,6 +93,7 @@ z-index: -3;
   position: absolute;
   left: 1em;
   top: 10em;
+     animation: mover-ojo 5s linear 2s infinite alternate;
 }
 
 .ojo-rt {
@@ -122,18 +129,31 @@ z-index: -3;
 
 }
 
+
+.serio2 {
+  position: absolute;
+  left: -22em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
+  width: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+
+}
+
 .cuerpo {
   position: absolute;
   margin: 0 auto;
   left: 0;
   right: 0;
 
-
   width: 15em;
   height: 15em;
   border-radius: 4em;
   background-color: yellow;
-
   top: 30em;
 
 }
@@ -145,12 +165,12 @@ left: 0;
 right: 0;
 
 background-color: yellow;
-height: 3em;
-width: 13em;
+height: 15em;
+width: 20em;
 border-radius: 1em;
-top: 5em;
-left: -18em;
-transform: rotate(120deg);
+top: 3em;
+left: -23em;
+transform: rotate(90deg);
 
 }
 
@@ -161,23 +181,140 @@ transform: rotate(120deg);
   right: 0;
 
   background-color: yellow;
-  height: 3em;
-  width: 13em;
+  height: 15em;
+  width: 20em;
   border-radius: 1em;
 
-  top: 5em;
-  right: -18em;
-  transform: rotate(240deg);
+  top: 3em;
+  right: -23em;
+  transform: rotate(90deg);
+}
+
+.guantes1 {
+  position: absolute;
+  left: -11.5em;
+  bottom: -5.5em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 10.5em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.guantes2 {
+  position: absolute;
+  right: -11.5em;
+  bottom: -5.5em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 10.5em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.cinturon1 {
+  position: absolute;
+  left: -1em;
+  bottom: -6em;
+  margin: 0;
+  background-color: black;
+  height: 5em;
+  width: 17em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.cinturon2 {
+  position: absolute;
+  width: 6em;
+  height: 6em;
+  left: 4.5em;
+  bottom: -6.5em;
+  border-radius: 50%;
+  background: #efb810;
+  z-index: 2;
 }
 
 .pie1 {
   position: absolute;
-  left: 20em;
-  top: 0;
+  left: -1em;
+  top: 12em;
   margin: 0;
-  background-color: green;
+  background-color: yellow;
   border-radius: 1em;
-  height: 8em;
-  width: 3em;
+  height: 35em;
+  width: 11em;
  z-index: -3;
+}
+
+.pie2 {
+  position: absolute;
+  right: -1em;
+  top: 12em;
+  margin: 0;
+  background-color: yellow;
+  border-radius: 1em;
+  height: 35em;
+  width: 11em;
+ z-index: -3;
+
+}
+
+.botas1 {
+  position: absolute;
+  left: -1em;
+  top: 39em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 11em;
+  border-top: 9em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.botas2 {
+  position: absolute;
+  right: -1em;
+  top: 39em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 11em;
+  border-top: 9em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.cremallera1 {
+  position: absolute;
+  left: 1em;
+  bottom: 6em;
+  margin: 0;
+  background-color: white;
+  height: 5em;
+  width: 13em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+  transform: rotate(90deg);
+}
+
+.cremallera2 {
+  position: absolute;
+  left: 1em;
+  bottom: 6em;
+  margin: 0;
+  background-color: grey;
+  height: 5em;
+  width: 13em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+  transform: rotate(90deg);
 }
