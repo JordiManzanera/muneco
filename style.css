@@ -103,6 +103,43 @@ z-index: -3;
 }
 
 .serio1 {
+<<<<<<< HEAD
+  position: absolute;
+  left: -8em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
+  width: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.serio2 {
+  position: absolute;
+  left: -22em;
+  bottom: 6em;
+  margin: 0;
+  background-color: #FCD1C6;
+  height: 7em;
+  width: 15em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: 1;
+
+}
+
+.cuerpo {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+
+  width: 20em;
+  height: 30em;
+=======
   position: absolute;
   left: -8em;
   bottom: 6em;
@@ -152,6 +189,7 @@ z-index: -3;
 
   width: 15em;
   height: 15em;
+>>>>>>> 1f919a61bfe4794c68429f304021fcbd52504dfa
   border-radius: 4em;
   background-color: yellow;
   top: 30em;
@@ -192,12 +230,21 @@ transform: rotate(90deg);
 
 .guantes1 {
   position: absolute;
+<<<<<<< HEAD
   left: -11.5em;
   bottom: -5.5em;
   margin: 0;
   background-color: red;
   height: 8em;
   width: 10.5em;
+=======
+  left: -9em;
+  bottom: 6em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 8em;
+>>>>>>> 93a9b72e2be84a76761b4430299c0da114dc7f96
   border-top: 10em;
   border-radius: 0em;
   z-index: 1;
@@ -205,12 +252,21 @@ transform: rotate(90deg);
 
 .guantes2 {
   position: absolute;
+<<<<<<< HEAD
   right: -11.5em;
   bottom: -5.5em;
   margin: 0;
   background-color: red;
   height: 8em;
   width: 10.5em;
+=======
+  right: -9em;
+  bottom: 6em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 8em;
+>>>>>>> 93a9b72e2be84a76761b4430299c0da114dc7f96
   border-top: 10em;
   border-radius: 0em;
   z-index: 1;
@@ -219,17 +275,26 @@ transform: rotate(90deg);
 .cinturon1 {
   position: absolute;
   left: -1em;
+<<<<<<< HEAD
   bottom: -6em;
   margin: 0;
   background-color: black;
   height: 5em;
   width: 17em;
+=======
+  bottom: 6em;
+  margin: 0;
+  background-color: black;
+  height: 8em;
+  width: 22em;
+>>>>>>> 93a9b72e2be84a76761b4430299c0da114dc7f96
   border-top: 10em;
   border-radius: 0em;
   z-index: 1;
 }
 
 .cinturon2 {
+<<<<<<< HEAD
   position: absolute;
   width: 6em;
   height: 6em;
@@ -238,6 +303,15 @@ transform: rotate(90deg);
   border-radius: 50%;
   background: #efb810;
   z-index: 2;
+=======
+  width: 10em;
+  height: 5em;
+  left: -5em;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: green;
+>>>>>>> 93a9b72e2be84a76761b4430299c0da114dc7f96
 }
 
 .pie1 {
@@ -249,6 +323,7 @@ transform: rotate(90deg);
   border-radius: 1em;
   height: 35em;
   width: 11em;
+<<<<<<< HEAD
  z-index: -3;
 }
 
@@ -261,6 +336,8 @@ transform: rotate(90deg);
   border-radius: 1em;
   height: 35em;
   width: 11em;
+=======
+>>>>>>> 93a9b72e2be84a76761b4430299c0da114dc7f96
  z-index: -3;
 
 }
@@ -318,4 +395,43 @@ transform: rotate(90deg);
   border-radius: 0em;
   z-index: 1;
   transform: rotate(90deg);
+}
+
+.pie2 {
+  position: absolute;
+  right: -1em;
+  top: 12em;
+  margin: 0;
+  background-color: yellow;
+  border-radius: 1em;
+  height: 35em;
+  width: 11em;
+ z-index: -3;
+
+}
+
+.botas1 {
+  position: absolute;
+  left: -1em;
+  top: 39em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 11em;
+  border-top: 9em;
+  border-radius: 0em;
+  z-index: 1;
+}
+
+.botas2 {
+  position: absolute;
+  right: -1em;
+  top: 39em;
+  margin: 0;
+  background-color: red;
+  height: 8em;
+  width: 11em;
+  border-top: 9em;
+  border-radius: 0em;
+  z-index: 1;
 }
