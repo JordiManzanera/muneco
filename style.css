@@ -318,3 +318,18 @@ transform: rotate(90deg);
   z-index: 1;
   transform: rotate(90deg);
 }
+
+
+.capa2 {
+  position: absolute;
+  left: -12.5em;
+  bottom: -23em;
+  margin: 0 auto;
+  background-color: grey;
+  height: 25em;
+  width: 40em;
+  border-top: 10em;
+  border-radius: 0em;
+  z-index: -5;
+  transform: rotate(90deg);
+}
