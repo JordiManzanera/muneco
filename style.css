@@ -45,7 +45,6 @@ z-index: -3;
   border-radius: 6em;
   z-index: -2;
 
-
 }
 
 .ojos {
@@ -87,7 +86,7 @@ z-index: -3;
   position: absolute;
   left: 1em;
   top: 10em;
-     animation: mover-ojo 5s linear 2s infinite alternate;
+
 }
 
 .ojo-rt {
@@ -108,21 +107,6 @@ z-index: -3;
   border-radius: 0em;
   z-index: 1;
 }
-
-.serio2 {
-  position: absolute;
-  left: -22em;
-  bottom: 6em;
-  margin: 0;
-  background-color: #FCD1C6;
-  height: 7em;
-  width: 15em;
-  border-top: 10em;
-  border-radius: 0em;
-  z-index: 1;
-
-}
-
 
 .serio2 {
   position: absolute;
