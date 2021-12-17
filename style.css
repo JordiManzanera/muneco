@@ -24,8 +24,22 @@ border: thin solid black;
 
 
 z-index: -3;
+animation-name: fondo-colores;
+animation-duration: 2s;
+animation-iteration-count: infinite;
 
 }
+
+@keyframes fondo-colores {
+
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75%  {background-color: green;}
+    100% {background-color: red;}
+
+}
+
 
 .muneco {
   position: relative;
